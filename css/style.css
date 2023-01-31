@@ -47,6 +47,13 @@ header .button {
   width: 188px;
   height: 57px;
   margin-top: 44px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+header .button:hover {
+  border: 1px solid;
+  color: white;
+  background-color: black;
 }
 header nav ul {
   display: -ms-grid;
