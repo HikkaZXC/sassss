@@ -2,9 +2,9 @@
     margin: 0
     padding: 0
 header
-    border: 1px solid
-    width: 60%
+    width: 80%
     margin: 0 auto
+    padding-bottom: 10vh
     h1
         font-family: HelveticaNeueLTProLt
         font-size: 44px
@@ -61,3 +61,30 @@ header
             li.active
                 a
                     color: #010101
+main
+    .about
+        color: white
+        display: grid
+        grid-template-columns: repeat(2, 30vw)
+        justify-content: center
+        grid-template-rows: 276px 276px
+        gap: 170px
+        padding-top: 10vh
+        padding-bottom: 20vh
+        background: url("../img/white.png") center bottom repeat-x, url("../img/black.png") center bottom repeat-x , #1d1d1d
+        .about__item
+            background-color: #181818
+            display: grid
+            text-align: center
+            align-content: center
+            padding: 0 1vw
+            .about__year
+                font-family: HelveticaNeueLTProRoman
+                font-size: 48px
+                font-weight: 400
+                color: #fefefe
+            .about__text
+                font-family: Montserrat-Light
+                font-size: 15px
+                font-weight: 300
+                color: #b7b7b7
